@@ -1,0 +1,229 @@
+
+@media (max-width: 900px){
+    header .left{
+        position: absolute;
+        top: 94px;
+        z-index: 9;
+        background: #fff;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease-in-out;
+    }
+    
+    header .nav-container{
+        width: fit-content;
+        margin-left: auto;
+    }
+    .humburger{
+        display: flex;
+    }
+    header .left ul{
+        display: block;
+    }
+    header .left ul li {
+        padding: 5px;
+    }
+    header .left ul li a {
+        width: 100%;
+    display: flex;
+    }
+}
+@media (max-width: 786px){
+    header .left nav{
+        width: 100%;
+    }
+    header .left{
+        position: absolute;
+        top: 86px;
+        z-index: 99;
+        
+    }
+    header .nav-container{
+       margin: 0;
+    }
+    header .logo {
+        margin-right: 0;
+        width: 150px !important;
+    }
+    header navbar {
+        justify-content: space-between;
+    } 
+    header .right {
+        width: 60px;
+    } 
+    .humburger{
+        margin-right: 35px;
+    }  
+ 
+    header .left ul {
+        display: block;
+        width: 100%;
+    }
+    .pt-70{
+        padding-top: 30px;
+    }
+    section .text-container p{
+        margin-right: 0;
+    }
+    .btn {
+        background-color: #171717;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .btn-outine{
+        background-color: transparent;
+        color: #171717;
+        padding: 12px;
+    }
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    section .text-container p {
+        font-size: 0.8rem;
+    }
+    .course-badge {
+        font-size: 0.8rem;
+        padding: 6px 12px
+}
+.testimonial-card h6 {
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.h4, h4 {
+    font-size: 1.2rem;
+}
+footer .links a {
+    font-size: 0.9rem;
+}
+footer {
+    padding: 30px 0 0;
+}
+section .text-container{
+    gap: 10px;
+}
+.course-detail .price .new-price {
+    font-size: 1.2rem;
+}
+.course-detail .list-sub{
+    display: block;
+}
+.course-detail .list-sub .list{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.course-detail .text-container .decription{
+    gap: 10px;
+}
+.course-detail .text-container .decription h3{
+    font-size: 1.4rem;
+}
+.course-detail .text-container .decription ul {
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+.course-detail .text-container .decription ul li {
+    margin: 0 0 8px 0;
+    font-size: 0.8rem;
+}
+.about-us .nav-tabs{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.about-us .nav-tabs li{
+    width: 50%;
+}
+.about-us .nav-tabs li a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gallery-modal .close{
+    right: 5px;
+    top: 123px;
+}
+.contact-page .contact-details .contact{
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.contact-page form{
+    padding: 20px;
+}
+.contact-page .contact-main .form-input{
+    margin-bottom: 15px;
+}
+.contact-page .contact-main{
+    border-radius: 0; 
+    max-width: 100%;
+}
+.contact-page {
+    padding-top: 0;
+}
+.dashboard .nav-tabs li a{
+    width: 100% !important;
+}
+.contact-page form h1{
+    margin: 20px 10px
+}
+.fc-direction-ltr {
+    top: 0 !important;
+}
+.calender-hero img{
+    height: 200px;
+    object-fit: cover;
+}
+.calender-hero .text h6{
+    font-weight: 500 !important;
+    font-size: 0.8rem;
+}
+.fc-direction-ltr{
+    height: 89vh;
+    box-shadow: none;
+}
+footer{
+    
+}
+}
+@media (min-width: 1300px){
+    section {
+        max-width: 1600px;
+        margin: auto;
+        padding: 0 50px;
+    }
+   header navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 15px auto;
+    padding: 0 50px;
+}
+section .main-head h1{
+    font-size: 3.5rem;
+}
+.about-us .main-text{
+    font-size: 3.5rem;
+}
+.calender-hero .text{
+    font-size: 3.5rem;
+}
+.contact-page form h1{
+    font-size: 3.5rem;
+}
+.testimonial-slider .splide__arrow--prev {
+    left: -50px;
+}
+
+.testimonial-slider .splide__arrow--next {
+    right: -50px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .fc .fc-toolbar.fc-header-toolbar {
+        gap: 0;
+    }
+}
